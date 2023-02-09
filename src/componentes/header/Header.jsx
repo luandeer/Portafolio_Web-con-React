@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <header>
       <div className="container header-container">
-        <h5>Hello i'm</h5>
-        <h1>Luander</h1>
+        <h5>Hola, soy</h5>
+        <h1>Telmo Perez</h1>
         <h5 className="text-light"> Jr Frontend Developer | Software Engineer Student at UNMSM </h5>
         {/* Se hace el llamado del componente CTA*/}
         <CTA/>
@@ -17,7 +17,7 @@ const Header = () => {
           <img src={ME} alt="foto del profesional" />
         </div>
 
-        <a href="#contact" className='scroll-down'> Scroll Down</a>
+        <a href="#contact" className='scroll-down'>Ir Abajo</a>
       </div>
     </header>
   )

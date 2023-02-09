@@ -6,9 +6,9 @@ import { BsYoutube } from 'react-icons/bs'
 const HeaderSocial = () => {
     return (
         <div className="header-socials">
-            <a href="https://linkedin.com" target="_blank"><BsLinkedin /></a>
-            <a href="https://linkedin.com" target="_blank"><FaGithub /></a>
-            <a href="https://linkedin.com" target="_blank"><BsYoutube /></a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/telmo-alexander-perez-reginaldo-8a449b223/"  ><BsLinkedin /></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/talexanderp"  ><FaGithub /></a>
+            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@luandeer"  ><BsYoutube /></a>
         </div>
     )
 }
