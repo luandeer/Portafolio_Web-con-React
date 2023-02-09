@@ -31,9 +31,7 @@ const About = () => {
               <small>+10 completados</small>
             </article>
           </div>
-          <p>Estudiante de Ingenieria de Software, con una base de
-            conocimientos en desarrollo de proyectos web personales.
-            Busco colaborar en una posicion como desarrollador front-end ya que quisiera poner en práctica los conocimientos adquiridos empírica y académicamente.
+          <p>Hola, me llamo Telmo Alexander Perez Reginaldo. Actualmente soy estudiante en octavo ciclo de Ingeniería de Software en la Universidad Nacional Mayor de San Marcos, Tambien soy estudiante en la especialidad de desarrollo front end en platzi y el programa One Oracle Next Education.
           </p>
           <a href="#contact" className='btn btn-primary'>Enviame un mensaje</a>
         </div>

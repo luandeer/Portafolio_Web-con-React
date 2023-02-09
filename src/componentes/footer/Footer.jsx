@@ -6,11 +6,11 @@ import {FaTwitter} from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer>
-      <a href="/#" className='footer-logo'>LUANDER</a>
+      <a href="#" className='footer-logo'>Telmo Perez</a>
       <ul className='permalinks'>
-          <li><a href="/#">Inicio</a></li>
+          <li><a href="#">Inicio</a></li>
           <li><a href="#about" >Acerca de mi</a></li>
-          <li><a href="#tecnology" >Skils</a></li>
+          <li><a href="#tecnology" >Skills</a></li>
           <li><a href="#services" >Servicios</a></li>
           <li><a href="#portafolio" >Portafolio</a></li>
           <li><a href="#contact">Contacto</a></li>
