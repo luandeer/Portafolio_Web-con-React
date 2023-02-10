@@ -1,6 +1,6 @@
 import React from 'react'
 import "./portafolio.css"
-import ITEM from './itemProyecto'
+import ITEM from './ItemProyecto'
 const Portafolio = () => {
   return (
     <section id='portafolio'>

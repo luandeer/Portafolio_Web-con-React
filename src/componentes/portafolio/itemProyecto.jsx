@@ -1,6 +1,6 @@
 import React from 'react'
 
-const itemProyecto = (props) => {
+const ItemProyecto = (props) => {
     return (
         <article className="portafolio-item">
             <div className="portafolio-item-image">
@@ -15,4 +15,4 @@ const itemProyecto = (props) => {
     )
 }
 
-export default itemProyecto
+export default ItemProyecto

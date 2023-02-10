@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFillCheckCircleFill } from 'react-icons/bs'
-const article = (props) => {
+const ItemSkill = (props) => {
     return (
         <arcticle className="technology-details">
             <BsFillCheckCircleFill className='technology-details-icon' />
@@ -12,4 +12,4 @@ const article = (props) => {
     )
 }
 
-export default article
+export default ItemSkill

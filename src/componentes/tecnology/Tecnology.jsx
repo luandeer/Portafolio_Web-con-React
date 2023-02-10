@@ -1,6 +1,6 @@
 import React from 'react'
 import "./tecnology.css"
-import ITEM from './article'
+import ITEM from './ItemSkill'
 
 const Tecnology = () => {
   return (

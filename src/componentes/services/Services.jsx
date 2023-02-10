@@ -1,6 +1,6 @@
 import React from 'react'
 import "./services.css"
-import ITEM from './itemServicio'
+import ITEM from './ItemServicio'
 const Services = () => {
   return (
     <section id='services'>

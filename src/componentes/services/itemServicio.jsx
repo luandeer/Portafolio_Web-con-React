@@ -1,6 +1,6 @@
 import React from 'react'
 import {BiCheck} from 'react-icons/bi'
-const itemServicio = (props) => {
+const ItemServicio = (props) => {
     return (
         <li>
             <BiCheck className='service-list-icon' />
@@ -9,4 +9,4 @@ const itemServicio = (props) => {
     )
 }
 
-export default itemServicio
+export default ItemServicio
