@@ -9,7 +9,6 @@ import Portafolio from "./componentes/portafolio/Portafolio"
 import Contact from "./componentes/contact/Contact"
 import Footer from "./componentes/footer/Footer"
 
-
 const App = () => {
   return (
     <>
