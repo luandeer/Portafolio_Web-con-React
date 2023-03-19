@@ -10,8 +10,8 @@
     text-decoration: none;
 }
 /** declarar variables--color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-bg-variant: #303960;
+    --color-primary: #17B794;
     --color-primary-variant: rgba(77,181,255,0.4);
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6); **/
@@ -20,7 +20,7 @@
     --color-bg-variant: #303960;
     --color-primary: #17B794;
     --color-primary-variant: rgba(77,181,255,0.4);
-    --color-white: #fff;
+    --color-white: #EEEEEE;
     --color-light: rgba(255,255,255,0.6); 
 
     --transition: all 400ms ease;
@@ -43,7 +43,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../img/bg-texture.png);
+    background-image: url(../img/bg-texture1.png);
 }
 
 /* Genearl styles */
