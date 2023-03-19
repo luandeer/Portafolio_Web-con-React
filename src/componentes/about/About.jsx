@@ -31,7 +31,7 @@ const About = () => {
               <small>+10 completados</small>
             </article>
           </div>
-          <p>Hola, me llamo Telmo Alexander Perez Reginaldo. Actualmente soy estudiante en octavo ciclo de Ingeniería de Software en la Universidad Nacional Mayor de San Marcos, Tambien soy estudiante en la especialidad de desarrollo front end en platzi y el programa One Oracle Next Education.
+          <p>Hola, mi nombre es Telmo Alexander Perez Reginaldo. Actualmente soy estudiante de octavo ciclo en Ingeniería de Software de la Universidad Nacional Mayor de San Marcos, tambien soy estudiante en la especialidad de desarrollo front end de Platzi y del programa One Oracle Next Education.
           </p>
           <a href="#contact" className='btn btn-primary'>Enviame un mensaje</a>
         </div>
