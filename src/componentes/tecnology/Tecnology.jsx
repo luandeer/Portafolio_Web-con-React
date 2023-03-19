@@ -15,7 +15,6 @@ const Tecnology = () => {
             <ITEM nombre='HTML5' nivel='avanzado' />
             <ITEM nombre='JavaScript' nivel='intermedio' />
             <ITEM nombre='React' nivel='intermedio' />
-            <ITEM nombre='Bootstrap' nivel='intermedio' />
             <ITEM nombre='Tailwind' nivel='intermedio' />
             <ITEM nombre='Diseño UX/UI' nivel='intermedio' />
           </div>
