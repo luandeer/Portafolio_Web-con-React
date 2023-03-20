@@ -13,21 +13,17 @@ const Tecnology = () => {
           <div className="technology-content">
             <ITEM nombre='CSS3' nivel='intermedio' />
             <ITEM nombre='HTML5' nivel='avanzado' />
-            <ITEM nombre='JavaScript' nivel='intermedio' />
+            <ITEM nombre='JavaScript' nivel='básico' />
             <ITEM nombre='React' nivel='intermedio' />
-            <ITEM nombre='Tailwind' nivel='intermedio' />
-            <ITEM nombre='Diseño UX/UI' nivel='intermedio' />
+            <ITEM nombre='Diseño UX/UI' nivel='básico' />
           </div>
         </div>
         {/*final del frontend */}
         <div className="technology-backend">
           <h3>Backend Development</h3>
           <div className="technology-content">
-            <ITEM nombre='Node JS' nivel='intermedio' />
-            <ITEM nombre='MySQL' nivel='intermedio' />
-            <ITEM nombre='Mongo DB' nivel='intermedio' />
-            <ITEM nombre='SQL Server' nivel='intermedio' />
-            <ITEM nombre='JavasScript' nivel='intermedio' />
+            <ITEM nombre='Node JS' nivel='básico' />
+            <ITEM nombre='Next js' nivel='básico' />
           </div>
         </div>
         {/*final del backend */}

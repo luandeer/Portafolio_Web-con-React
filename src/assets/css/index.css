@@ -43,7 +43,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../img/bg-texture1.png);
+    background-image: url(../img/bg-texture.png);
 }
 
 /* Genearl styles */
