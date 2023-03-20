@@ -21,6 +21,7 @@
     border-radius: 1.5rem;
     overflow: hidden;
     object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .portafolio-item h3{
