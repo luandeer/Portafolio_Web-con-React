@@ -1,13 +1,15 @@
 .technology-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
 }
 
 .technology-container>div {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: var(--color-bg-variant);
-    padding: 2.5rem 5rem;
+    padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -19,16 +21,26 @@
     cursor: default;
 }
 
-.technology-container > div h3 {
+.technology-container>div h3 {
+    width: 100%;
+    height: auto;
     text-align: center;
-    margin-bottom: 2rem;
     color: var(--color-primary);
 }
 
+.technology-container>div:hover h3 {
+    display: none;
+}
+
 .technology-content {
+    display: none;
+}
+.technology-container>div:hover .technology-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    grid-template-columns: repeat(5, auto);
+    gap: 2rem;
+    padding: 0 2rem 0 2rem;
+    font-size: 0.9rem;
 }
 
 .technology-details {
@@ -36,7 +48,7 @@
     gap: 1rem;
 }
 
-.technology-details-icon{
+.technology-details-icon {
     margin-top: 6px;
     color: var(--color-primary);
 }
@@ -47,7 +59,8 @@
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    .technology-container > div{
+
+    .technology-container>div {
         width: 100%;
         min-width: 250px;
         max-width: 600px;
@@ -55,20 +68,28 @@
         margin: 0 auto;
     }
 
-    .technology-content{
+    .technology-content {
         padding: 1rem;
         gap: 0.8rem;
     }
- }
- 
- /* Media queries (small device) movil */
- @media screen and (max-width: 600px) {
+
+    .technology-container>div:hover .technology-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Media queries (small device) movil */
+@media screen and (max-width: 600px) {
     .technology-container {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    .technology-container > div{
+
+    .technology-container>div {
         width: 100%;
         padding: 2rem 1rem;
     }
- }
+    .technology-container>div:hover .technology-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

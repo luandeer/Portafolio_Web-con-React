@@ -28,7 +28,7 @@ const Tecnology = () => {
         </div>
         {/*final del backend */}
         <div className="technology-otros">
-          <h3>Otras habilidades</h3>
+          <h3>Otros Skills</h3>
           <div className="technology-content">
             <ITEM nombre='Adobe Illustrator' nivel='intermedio' />
             <ITEM nombre='Adobe Premier' nivel='intermedio' />
