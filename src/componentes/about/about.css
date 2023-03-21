@@ -1,36 +1,49 @@
-.about-container{
+.about-container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    /*grid-template-columns: 35% 50%;
+    gap: 15%;*/
+    grid-template-columns: 1fr;
+    justify-items: center;
+
 }
 
-.about-me{
-    width: 100%;
+.about-me {
+    display: none;
+    /* width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg,transparent, var(--color-primary), transparent);
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
-    place-items: center;
+    place-items: center;*/
 }
 
-.about-me-image{
+.about-me-image {
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
 }
 
-.about-me-image:hover{
+.about-me-image:hover {
     transform: rotate(0);
 }
 
-.about-cards{
+.about-content {
+    width: 100%;
+    height: auto;
+}
+
+.about-cards {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
-.about-card{
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -39,61 +52,88 @@
     transition: var(--transition);
 }
 
-.about-card:hover{
+.about-card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.about-icon{
+.about-card:hover h5 {
+    display: none;
+}
+
+.about-card:hover .about-icon {
+    display: none;
+}
+
+.about-card:hover small {
+    width: 100%;
+    height: auto;
+    /*para mostrar el elemento ocultado visibility: visible;*/
+    display: block;
+    font-size: 0.8rem;
+    color: var(--color-light);
+    text-align: center;
+}
+
+.about-icon {
     color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
 }
 
-.about-card h5{
+.about-card h5 {
     font-size: 0.95rem;
 }
 
-.about-card small{
-    font-size: 0.7rem;
-    color: var(--color-light);
+.about-card small {
+    display: none;
+    /*para ocultar un elemento visibility: hidden;*/
 }
 
-.about-content p{
+.about-content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: justify;
 }
 
 /* Media queries (medium device) tablets */
 @media screen and (max-width: 1024px) {
-   .about-container{
-    grid-template-columns: 1fr;
-    gap: 0;
-   }
-   .about-me{
-    width: 50%;
-    margin: 2rem auto 4rem;
-   }
-   .about-container p{
-    margin: 1rem 0 1.5rem;
-   }
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about-me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about-container p {
+        margin: 1rem 0 1.5rem;
+    }
 }
 
 /* Media queries (small device) movil */
 @media screen and (max-width: 600px) {
-    .about-me{
+    .about-me {
         width: 65%;
         margin: 0 auto 3rem;
     }
-    .about-cards{
+
+    .about-cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
-    .about-content{
+
+    .about-content {
         text-align: center;
     }
-    .about-content p{
+
+    .about-content p {
         margin: 1.5rem 0;
     }
 }
