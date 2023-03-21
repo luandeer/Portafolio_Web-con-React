@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Portafolio_Web-con-React/static/css/main.fe6cb54b.css",
-    "main.js": "/Portafolio_Web-con-React/static/js/main.a773c5ab.js",
+    "main.js": "/Portafolio_Web-con-React/static/js/main.1a267ce3.js",
     "static/media/me.png": "/Portafolio_Web-con-React/static/media/me.9f105b2152b1f42a6d3b.png",
+    "static/media/logoico.ico": "/Portafolio_Web-con-React/static/media/logoico.8cc9e2722b2c321cb0b6.ico",
     "static/media/cv.pdf": "/Portafolio_Web-con-React/static/media/cv.e8b63aaa0995c955769d.pdf",
     "static/media/portafolio2.jpg": "/Portafolio_Web-con-React/static/media/portafolio2.411daf17336282163f15.jpg",
     "static/media/portafolio3.jpg": "/Portafolio_Web-con-React/static/media/portafolio3.dc7f85020c82b8dd0e89.jpg",
@@ -11,10 +12,10 @@
     "static/media/me-about.jpg": "/Portafolio_Web-con-React/static/media/me-about.bb1f60de6f5fb619419b.jpg",
     "index.html": "/Portafolio_Web-con-React/index.html",
     "main.fe6cb54b.css.map": "/Portafolio_Web-con-React/static/css/main.fe6cb54b.css.map",
-    "main.a773c5ab.js.map": "/Portafolio_Web-con-React/static/js/main.a773c5ab.js.map"
+    "main.1a267ce3.js.map": "/Portafolio_Web-con-React/static/js/main.1a267ce3.js.map"
   },
   "entrypoints": [
     "static/css/main.fe6cb54b.css",
-    "static/js/main.a773c5ab.js"
+    "static/js/main.1a267ce3.js"
   ]
 }
