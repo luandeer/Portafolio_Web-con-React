@@ -1,7 +1,9 @@
 import React from 'react'
 import "./tecnology.css"
 import ITEM from './ItemSkill'
-
+import { GiSkills } from 'react-icons/gi'
+import { AiFillDatabase } from 'react-icons/ai'
+import { RiPagesFill } from 'react-icons/ri'
 const Tecnology = () => {
   return (
     <section id='tecnology'>
@@ -9,6 +11,7 @@ const Tecnology = () => {
       <h2>My skills</h2>
       <div className="container technology-container">
         <div className="technology-frontend">
+          <RiPagesFill className="skill-icon" />
           <h3>Frontend</h3>
           <div className="technology-content">
             <ITEM nombre='CSS3' nivel='intermedio' />
@@ -20,6 +23,7 @@ const Tecnology = () => {
         </div>
         {/*final del frontend */}
         <div className="technology-backend">
+          <AiFillDatabase className="skill-icon" />
           <h3>Backend</h3>
           <div className="technology-content">
             <ITEM nombre='Node JS' nivel='básico' />
@@ -28,6 +32,7 @@ const Tecnology = () => {
         </div>
         {/*final del backend */}
         <div className="technology-otros">
+          <GiSkills className="skill-icon" />
           <h3>Otros Skills</h3>
           <div className="technology-content">
             <ITEM nombre='Adobe Illustrator' nivel='intermedio' />

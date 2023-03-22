@@ -33,6 +33,8 @@ const About = () => {
               <h5>Proyectos</h5>
               <small>
                 <ul>
+                  <li>Web Responsive</li>
+                  <li>Web Landing</li>
                   <li>Páginas Estáticas</li>
                   <li>Páginas Dinámicas</li>
                 </ul>
