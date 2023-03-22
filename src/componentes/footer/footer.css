@@ -4,32 +4,27 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
 }
 
-footer a {
-    color: var(--color-bg);
-}
-
-.footer-logo {
+.footer-nombre {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    color: var(--color-bg);
     display: inline-block;
 }
-
-.permalinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
+footer a img{
+    width: 100px;
+    height: auto;
 }
 
 .footer-social {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
-    margin-bottom: 4rem;
 }
 
 .footer-social a {
