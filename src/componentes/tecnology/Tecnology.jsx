@@ -9,7 +9,7 @@ const Tecnology = () => {
       <h2>My skills</h2>
       <div className="container technology-container">
         <div className="technology-frontend">
-          <h3>Frontend Development</h3>
+          <h3>Frontend</h3>
           <div className="technology-content">
             <ITEM nombre='CSS3' nivel='intermedio' />
             <ITEM nombre='HTML5' nivel='avanzado' />
@@ -20,7 +20,7 @@ const Tecnology = () => {
         </div>
         {/*final del frontend */}
         <div className="technology-backend">
-          <h3>Backend Development</h3>
+          <h3>Backend</h3>
           <div className="technology-content">
             <ITEM nombre='Node JS' nivel='básico' />
             <ITEM nombre='Next js' nivel='básico' />

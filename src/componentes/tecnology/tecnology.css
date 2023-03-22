@@ -10,7 +10,7 @@
     justify-content: center;
     background: var(--color-bg-variant);
     padding: 1.3rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -37,7 +37,7 @@
 }
 .technology-container>div:hover .technology-content {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     padding: 0 2rem 0 2rem;
     font-size: 0.9rem;
@@ -56,7 +56,7 @@
 /* Media queries (medium device) tablets */
 @media screen and (max-width: 1024px) {
     .technology-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
 
@@ -74,7 +74,8 @@
     }
 
     .technology-container>div:hover .technology-content {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 0.8rem;
     }
 }
 
@@ -90,6 +91,7 @@
         padding: 2rem 1rem;
     }
     .technology-container>div:hover .technology-content {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 0.8rem;
     }
 }

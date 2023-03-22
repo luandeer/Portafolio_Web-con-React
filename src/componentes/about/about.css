@@ -2,7 +2,7 @@
     display: grid;
     /*grid-template-columns: 35% 50%;
     gap: 15%;*/
-    grid-template-columns: 60%;
+    grid-template-columns: 1fr;
     justify-items: center;
     justify-content: center;
 }
@@ -28,14 +28,10 @@
     transform: rotate(0);
 }
 
-.about-content {
-    width: 100%;
-    height: auto;
-}
 
 .about-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
 }
 
@@ -115,6 +111,11 @@
     .about-container p {
         margin: 1rem 0 1.5rem;
     }
+    .about-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
 }
 
 /* Media queries (small device) movil */
@@ -125,7 +126,7 @@
     }
 
     .about-cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 

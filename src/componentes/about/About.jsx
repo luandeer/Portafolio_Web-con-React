@@ -4,6 +4,7 @@ import ME from "../../assets/img/me-about.jpg";
 import { IoLanguage } from "react-icons/io5";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import {BiGame} from 'react-icons/bi'
 const About = () => {
   return (
     <section id="about">
@@ -15,12 +16,12 @@ const About = () => {
         </div>
         <div className="about-content">
           <div className="about-cards">
-            
+
             <article className="about-card">
               <FiUsers className="about-icon" />
               <h5>Educacion</h5>
-              <small> 
-              <ul>
+              <small>
+                <ul>
                   <li>UNMSM - Ingeniería de Software</li>
                   <li>PLATZI - Frontend Developer Javascript</li>
                   <li>One Oracle Next education - Frontend Developer</li>
@@ -42,8 +43,20 @@ const About = () => {
               <h5>Idiomas</h5>
               <small>
                 <ul>
-                  <li>Ingles(B12)</li> 
+                  <li>Ingles(B12)</li>
                   <li>Español(nativo)</li>
+                </ul>
+              </small>
+            </article>
+            <article className="about-card">
+              <BiGame className="about-icon" />
+              <h5>Hobbies</h5>
+              <small>
+                <ul>
+                  <li>Futbol</li>
+                  <li>Videojuegos</li>
+                  <li>Crear Contenido</li>
+                  <li>Crear Animaciones</li>
                 </ul>
               </small>
             </article>
