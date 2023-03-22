@@ -15,10 +15,10 @@ const Tecnology = () => {
           <h3>Frontend</h3>
           <div className="technology-content">
             <ITEM nombre='CSS3' nivel='intermedio' />
-            <ITEM nombre='HTML5' nivel='avanzado' />
+            <ITEM nombre='HTML5' nivel='intermedio' />
             <ITEM nombre='JavaScript' nivel='básico' />
-            <ITEM nombre='React' nivel='intermedio' />
-            <ITEM nombre='Diseño UX/UI' nivel='básico' />
+            <ITEM nombre='React' nivel='básico' />
+            <ITEM nombre='Next js' nivel='básico' />
           </div>
         </div>
         {/*final del frontend */}
@@ -27,7 +27,11 @@ const Tecnology = () => {
           <h3>Backend</h3>
           <div className="technology-content">
             <ITEM nombre='Node JS' nivel='básico' />
-            <ITEM nombre='Next js' nivel='básico' />
+            <ITEM nombre='JavaScript' nivel='básico' />
+            <ITEM nombre='#C' nivel='Muy básico' />
+            <ITEM nombre='C++' nivel='Muy básico' />
+            <ITEM nombre='Java' nivel='Muy básico' />
+
           </div>
         </div>
         {/*final del backend */}
@@ -39,7 +43,7 @@ const Tecnology = () => {
             <ITEM nombre='Adobe Premier' nivel='intermedio' />
             <ITEM nombre='Adobe Animate' nivel='intermedio' />
             <ITEM nombre='Adobe Photoshop' nivel='intermedio' />
-            <ITEM nombre='Figma' nivel='intermedio' />
+            <ITEM nombre='Figma' nivel='básico' />
           </div>
         </div>
       </div>
