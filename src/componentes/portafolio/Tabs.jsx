@@ -4,7 +4,7 @@ import ItemsTab1 from './ItemsTab1'
 import ItemsTab2 from './ItemsTab2'
 import ItemsTab3 from './ItemsTab3'
 const Tabs = () => {
-    const [currentTab, setCurrentTab] = useState();
+    const [currentTab, setCurrentTab] = useState(1);
 
     const tabs = [
         {
@@ -28,7 +28,7 @@ const Tabs = () => {
     ]
 
     const handleTabClick = (e) => {
-        setCurrentTab(e.target.id);
+        setCurrentTab(parseInt(e.target.id));
     }
 
     return (
@@ -36,7 +36,7 @@ const Tabs = () => {
         <div className="container-tabs">
             <div className="tabs">
                 {tabs.map((tab, i) =>
-                    <button key={i} id={tab.id} disabled={currentTab === `${tab.id}`} onClick={(handleTabClick)}>
+                    <button key={i} id={tab.id} disabled={currentTab === tab.id} onClick={(handleTabClick)}>
                         {tab.tabTitle}
                     </button>
                 )}
@@ -44,7 +44,7 @@ const Tabs = () => {
             <div className="content-tabs">
                 {tabs.map((tab, i) =>
                     <div key={i}>
-                        {currentTab === `${tab.id}` &&
+                        {currentTab === tab.id &&
                             <div className="content-tabs-text">
                                 <p className="content-tabs-text_1">{tab.title}</p> 
                                 <p>{tab.content}</p>

@@ -36,9 +36,8 @@
 }
 .content-tabs-text_1{
     font-size: 0.8rem;
+    font-weight: bolder;
     color: var(--color-primary);
-    border: 1px solid var(--color-primary);
-    border-radius: 0.1rem;
     padding: 0.2rem 0.6rem;
 }
 
