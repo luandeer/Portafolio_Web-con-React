@@ -36,6 +36,10 @@
     font-size: 0.8rem; 
 }
 
+.contact-option a:hover{
+    transform: scale(1.2);
+}
+
 /*FORM*/
 
 form{
