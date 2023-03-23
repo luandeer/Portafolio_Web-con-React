@@ -19,6 +19,7 @@ const Tecnology = () => {
             <ITEM nombre='JavaScript' nivel='básico' />
             <ITEM nombre='React' nivel='básico' />
             <ITEM nombre='Next js' nivel='básico' />
+            <ITEM nombre='Vite js' nivel='básico' />
           </div>
         </div>
         {/*final del frontend */}
