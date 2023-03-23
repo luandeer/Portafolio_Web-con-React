@@ -10,7 +10,7 @@ const Tabs = () => {
         {
             id: 1,
             tabTitle: 'Todos',
-            title: 'Html5 | Css3 | JavaScript | React Js | Next Js | Node Js',
+            title: 'Html5 | Css3 | JS | React Js | Next Js | Node Js',
             content: <ItemsTab1/>
         },
         {
@@ -46,8 +46,8 @@ const Tabs = () => {
                     <div key={i}>
                         {currentTab === tab.id &&
                             <div className="content-tabs-text">
-                                <p className="content-tabs-text_1">{tab.title}</p> 
-                                <p>{tab.content}</p>
+                                <div className="content-tabs-text_1">{tab.title}</div> 
+                                <div>{tab.content}</div>
                             </div>
                         }
                     </div>
