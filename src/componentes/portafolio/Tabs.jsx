@@ -46,7 +46,7 @@ const Tabs = () => {
                     <div key={i}>
                         {currentTab === tab.id &&
                             <div className="content-tabs-text">
-                                <div className="content-tabs-text_1">{tab.title}</div> 
+                                <p className="content-tabs-text_1">{tab.title}</p> 
                                 <div>{tab.content}</div>
                             </div>
                         }
