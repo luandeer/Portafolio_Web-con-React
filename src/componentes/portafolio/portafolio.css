@@ -11,6 +11,7 @@
 }
 
 .tabs button{
+    font-size: 0.95rem;
     display: inline-block;
     color: var(--color-primary);
     background-color: transparent;

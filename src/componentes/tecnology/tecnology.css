@@ -34,6 +34,7 @@
 .technology-container>div h3 {
     width: 100%;
     height: auto;
+    font-size: 0.95rem;
     text-align: center;
     color: var(--color-primary);
 }

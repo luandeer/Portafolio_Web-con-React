@@ -32,7 +32,7 @@ const Tabs = () => {
     }
 
     return (
-        <> 
+
         <div className="container-tabs">
             <div className="tabs">
                 {tabs.map((tab, i) =>
@@ -54,7 +54,7 @@ const Tabs = () => {
                 )}
             </div>
         </div>
-        </>
+        
     )
 }
 
