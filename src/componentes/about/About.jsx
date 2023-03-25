@@ -4,7 +4,7 @@ import ME from "../../assets/img/me-about.jpg";
 import { IoLanguage } from "react-icons/io5";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import {BiGame} from 'react-icons/bi'
+import { BiGame } from 'react-icons/bi'
 const About = () => {
   return (
     <section id="about">
@@ -15,6 +15,17 @@ const About = () => {
           <img src={ME} alt="yo" className="about-me-image" />
         </div>
         <div className="about-content">
+
+          <p>
+            Hola, mi nombre es Telmo. Actualmente soy estudiante de octavo ciclo
+            en Ingeniería de Software de la Universidad Nacional Mayor de San
+            Marcos, tambien soy estudiante en la especialidad de desarrollo
+            front end de Platzi y del programa One Oracle Next Education.
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Enviame un mensaje
+          </a>
+
           <div className="about-cards">
 
             <article className="about-card">
@@ -33,8 +44,8 @@ const About = () => {
               <h5>Proyectos</h5>
               <small>
                 <ul>
-                  <li>Web Responsive</li>
                   <li>Web Landing</li>
+                  <li>Web Responsive</li>
                   <li>Páginas Estáticas</li>
                   <li>Páginas Dinámicas</li>
                 </ul>
@@ -63,15 +74,6 @@ const About = () => {
               </small>
             </article>
           </div>
-          <p>
-            Hola, mi nombre es Telmo. Actualmente soy estudiante de octavo ciclo
-            en Ingeniería de Software de la Universidad Nacional Mayor de San
-            Marcos, tambien soy estudiante en la especialidad de desarrollo
-            front end de Platzi y del programa One Oracle Next Education.
-          </p>
-          <a href="#contact" className="btn btn-primary">
-            Enviame un mensaje
-          </a>
         </div>
       </div>
     </section>

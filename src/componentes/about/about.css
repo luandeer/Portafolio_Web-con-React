@@ -96,6 +96,17 @@
     text-align: justify;
 }
 
+.about-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content a {
+    display: none;
+    margin-bottom: 2.6rem;
+    align-self: center;
+}
+
 /* Media queries (medium device) tablets */
 @media screen and (max-width: 1024px) {
     .about-container {
