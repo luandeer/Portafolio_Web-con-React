@@ -95,4 +95,8 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
+    .tabs{
+        gap: 0.2rem;
+    }
 }
