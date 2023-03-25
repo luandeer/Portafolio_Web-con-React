@@ -71,8 +71,8 @@
 
 .portafolio-item h3{
     margin: 1.2rem 0 2rem;
-    height: 150px;
     font-size: 14px;
+    text-align: justify;
 }
 
 .portafolio-item-cta{
