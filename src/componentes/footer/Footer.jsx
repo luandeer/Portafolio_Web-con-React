@@ -8,7 +8,7 @@ import Logo from '../../assets/img/LogoTelmo-v2.png'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" > <img src={Logo} alt="mi logo" /></a>
+      <a href="#header" > <img src={Logo} alt="mi logo" /></a>
       <h1 className='footer-nombre'>Telmo Perez</h1>
       <div className="footer-social">
         <a href="https:/facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>
