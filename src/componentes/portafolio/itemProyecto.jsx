@@ -9,7 +9,7 @@ const ItemProyecto = (props) => {
             <h3>{props.descripcion}</h3>
             <div className="portafolio-item-cta">
                 <a target="_blank" rel="noreferrer" href={`${props.linkGit}`} className='btn' >GitHub</a>
-                <a target="_blank" rel="noreferrer" href={`${props.linkDemo}`} className='btn btn-primary' >Demo</a>
+                <a target="_blank" rel="noreferrer" href={`${props.linkDemo}`} className='btn btn-primary' >Ver</a>
             </div>
         </div>
     )

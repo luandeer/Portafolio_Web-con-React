@@ -4,6 +4,7 @@ const ItemsTab2 = () => {
     return (
         <>
             <div className="container portafolio-container">
+                <ITEM imagen='portafolio5.jpg' nomFoto='proyecto 5' descripcion='Esta web es para una empresa que busca ofrecer un servicio de suscripcion. Desarrollada con React js - Vite' linkGit='https://github.com/luandeer/Sonqu' linkDemo='https://sonquoficial.com/' />
                 <ITEM imagen='portafolio2.jpg' nomFoto='proyecto 2' descripcion='Sonqu es una Landing Page con diseño responsive, este proyecto fue desarrollado con html-css-js. Tambien realizamos un diseño UI en Figma antes de inicar el desarrollo.' linkGit='https://github.com/luandeer/Landing-Mobile---Sonqu' linkDemo='https://luandeer.github.io/Landing-Mobile---Sonqu/src/index' />
                 <ITEM imagen='portafolio1.jpg' nomFoto='proyecto 1' descripcion='PIPATI es un juego de piedra-papel-tijera con un enfoque de fútbol, este proyecto fue desarrollada con html-css-js.' linkGit='https://github.com/luandeer/JuegoPiedraPapelTijera-html-css-js' linkDemo='https://luandeer.github.io/JuegoPiedraPapelTijera-html-css-js/src/index.html' />
                 <ITEM imagen='portafolio3.jpg' nomFoto='proyecto 3' descripcion='Esta web es una landing desarrollado con Node JS. Tambien consumimos una api para listar videos de un canal de youtube. ' linkGit='https://github.com/luandeer/proyecto-landing' linkDemo='https://luandeer.github.io/proyecto-landing/src/index.html' />

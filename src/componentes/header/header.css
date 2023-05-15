@@ -41,14 +41,15 @@ header{
 .me{
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
-    height: 30rem;
+    height: auto;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    /*padding: 5rem 1.5rem 1.5rem 1.5rem;*/
 }
+
 
 /*Scroll down*/
 
@@ -61,17 +62,17 @@ header{
     font-size: 0.9rem;
 }
 /* Media queries (medium device) tablets */
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
     header{
-        height: 68vh;
+        height: 100%;
     }
-}
+}*/
 
 /* Media queries (small device) movil */
 @media screen and (max-width: 600px) {
-    header{
+    /*header{
         height: 100vh;
-    }
+    }*/
     .header-socials, .scroll-down{
         display: none;
     }
